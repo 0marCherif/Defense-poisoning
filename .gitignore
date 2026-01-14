@@ -1,6 +1,29 @@
-/authors.pt
-/authors92K.json
-/dico_rankings.json
-/malicious.pt
-/papers.pt
-/rewritten.pt
+# Fichiers PyTorch (tensors) - trop volumineux pour GitHub
+*.pt
+
+# Gros fichiers JSON de données
+authors92K.json
+submission_metadata.json
+
+# Rankings générés (volumineux)
+Rankings/*.json
+
+# Fichiers de données originaux
+101ranking.json
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environnements virtuels
+venv/
+env/
+.env/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
